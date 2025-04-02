@@ -1,5 +1,5 @@
 public class ConfiguracionGlobal {
-        // Instancia única del Singleton
+        // Instancia única de Singleton
         private static ConfiguracionGlobal instancia;
 
         // Configuraciones del juego
@@ -103,13 +103,11 @@ public class ConfiguracionGlobal {
         // Método para cargar configuraciones (simulado)
         public void cargarConfiguraciones() {
             System.out.println("Cargando configuraciones desde archivo...");
-            // Aquí iría el código para cargar desde un archivo
         }
 
         // Método para guardar configuraciones (simulado)
         public void guardarConfiguraciones() {
             System.out.println("Guardando configuraciones en archivo...");
-            // Aquí iría el código para guardar en un archivo
         }
     }
 

@@ -12,7 +12,7 @@ public class Lobby {
         config.mostrarConfiguraciones();
     }
 
-    public void ajustarConfiguracionesDesdeMenu() {
+    public void ajustarConfiguracionesMenu() {
         System.out.println("Ajustando configuraciones desde el lobby:");
         config.setIdioma("Inglés");
         config.setPantallaCopleta(false);
